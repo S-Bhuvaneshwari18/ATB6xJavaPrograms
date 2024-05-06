@@ -1,0 +1,34 @@
+package ex_23042024;
+
+import java.util.Scanner;
+
+public class Lab079 {
+
+	public static void main(String[] args) {
+		// Triangle Classifier 
+		//	Write a program  that classifies based on its side length
+	// Given three input values representing the length  of the sides , determine
+    
+		//if the triangle is equilateral (all sides are equal),
+		//Isosceles (exactly two sides are equal), or
+		//Scalene (no sides are equal).
+		//Use an if-else statement to classify the triangle
+		
+		//side1, side2 , side3
+		
+		Scanner sc= new Scanner(System.in);
+	     System.out.println("Enter the side1, side2 ,side3, I will tell  about the triangle ");
+		int side1 =sc.nextInt();
+		int side2 =sc.nextInt();
+		int side3 =sc.nextInt();
+		
+		if ((side1==side2)&&(side1==side3)&&(side2==side3)) {
+            System.out.println("EQ");
+		}else if ((side1==side2)||(side1==side3)||(side2==side3)){
+            System.out.println("ISO");
+		}else{
+            System.out.println("Scalene");
+		}
+	}
+
+}

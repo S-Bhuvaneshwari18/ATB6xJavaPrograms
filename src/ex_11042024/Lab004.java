@@ -1,0 +1,12 @@
+package ex_11042024;
+
+public class Lab004 {
+    //public static void main(String[]---signature
+	public static void main(String[] bhu) {
+	   System.out.println("Interview Q");
+	   
+	   //public static void main(String[] a)
+	   //public static void main(String[] bhu)
+	}
+
+}

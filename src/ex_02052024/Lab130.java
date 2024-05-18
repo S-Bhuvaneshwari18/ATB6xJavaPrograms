@@ -16,8 +16,8 @@ public class Lab130 {
 		String[] args = {"bhuvi", "Aravind",  "Prabhu", "Aadhi"};
 		
 		String s1= "bhuvi";
-		  System.out.println(s1.length());
-		  System.out.println(s_array.length);
+		  System.out.println(s1.length());//function
+		  System.out.println(s_array.length);//keyword
 		
 	}
 
